@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&family=Fraunces:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+   --vermelho-suave:  hsl(7, 99%, 70%);
+   --amarelo: hsl(51, 100%, 49%);
+   --ciano-escuro: hsl(167, 40%, 24%);
+   --azul-escuro: hsl(198, 62%, 26%);
+   --ciano-escuro-rodapé: hsl(168, 34%, 41%);
+   --azul-muito-escuro: hsl(212, 27%, 19%);
+   --azul-acizentado-muito-escuro: hsl(213, 9%, 39%);
+   --azul-acizentado-escuro: hsl(232, 10%, 55%);
+   --azul-acinzentado: hsl(210, 4%, 67%);
+   --branco: hsl(0, 0%, 100%);
+}
+
+
+
+@media (max-width: 950px) {
+    .descricao-main-1 h2 {
+        font-size: 30px;
+    }
+    .descricao-main-1 p {
+        font-size: 16px;
+    }
+    .descricao-main-1 a {
+        font-size: 20px;
+    }
+    .descricao-main-2 p {
+        font-size: medium;
+    }.pessoa p {
+        font-size: medium;
+    }
+    .descricao-main-2 h2 {
+        margin-bottom: 20px;
+    }    
+}
+
+@media (max-width: 800px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 700px){
+    .descricao-main-2 h2 {
+        font-size: larger;
+    }
+    .seta{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 650px){
+    .container-main-1 {
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+    }
+    .img-container {
+        width: 100%;
+        height: 50%;
+    }
+    .container-descricao-main-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+    }
+    .sair-2{
+        display: none;
+    }
+    .sair-1{
+        display: block;
+    }
+    .imagem1-main-2 {
+        background-image: url('/assets/images/desktop/mobile/image-graphic-design.jpg');
+        width: 100%;
+    }
+    .imagem2-main-2 {
+        background-image: url('/assets/images/desktop/mobile/image-photography.jpg'); 
+        width: 100%;   
+    }
+    .main-2 {
+        display: flex;
+        flex-direction: column;
+        height: 1200px;
+    }
+    .main-3 {
+        height: 1200px;
+    }    
+    .conteudo-main-3 {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .conteudo-main-3 p {
+        display: none;
+    }
+    .pessoa {
+        gap: 20px;
+    }
+    .titulo-main-3 {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px){
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+    }
+    .cabecalho nav {
+        display: none;
+    }
+    .menu-hamburguer {
+        display: block;
+        position: relative;
+        top: 5px;
+    }
+    .menu-hamburguer p {
+        color: #fff;
+        font-size: 2em;
+    }
+    .seta{
+        font-size: larger;
+    }
+    .titulo-main-3 {
+        font-size: 24px;
+    }
+    .pessoa h4 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+}
+
+@media (max-width: 330px) {
+    .titulo h2 {
+        font-size: 40px;
+    }
+    .menu-hamburguer {
+        position: relative;
+        top: 0;
+    }
+    .descricao-main-1 h2 {
+        font-size: 26px;
+    }
+    .descricao-main-1 p {
+        font-size: 14px;
+    }
+}
