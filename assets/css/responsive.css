@@ -116,17 +116,51 @@
         display: flex;
         flex-direction: row;
     }
-    .cabecalho nav {
-        display: none;
+    #menu a{
+        color: hsl(232, 10%, 55%);
+        margin: 0 1rem;
     }
+    #menu a:hover{
+        color: hsl(212, 27%, 19%);
+        background-color: hsl(51, 100%, 49%);
+    }
+    #menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        background: #fff;
+        height: 0px;
+        transition: .6s;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    #nav.active #menu{
+        height: calc(72vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+
+
+
     .menu-hamburguer {
         display: block;
         position: relative;
         top: 5px;
     }
-    .menu-hamburguer p {
+    .menu-hamburguer {
         color: #fff;
         font-size: 2em;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
     }
     .seta{
         font-size: larger;

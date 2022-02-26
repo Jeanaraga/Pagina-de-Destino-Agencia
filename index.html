@@ -16,6 +16,7 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
+
 <body>
 
   <header>
@@ -24,17 +25,18 @@
         <div class="titulo">
           <h2>Sunnyside</h2>
         </div>
-        <nav>
-          <ul>
+         
+        <nav id="nav">
+          <button aria-label="Abrir-Menu" id="btn-mobile" class="menu-hamburguer" aria-expanded="false" aria-controls="menu" aria-haspopup="true">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <ul id="menu" role="menu">
             <li><a href="">About</a></li>
             <li><a href="">Services</a></li>
             <li><a href="">Projects</a></li>
             <li><a href="">Contact</a></li>
           </ul>
         </nav>
-       <div class="menu-hamburguer">
-          <p><i class="fa-solid fa-bars"></i></p>
-       </div>
       </div>
       <div class="seta">
         <h1>We are creatives</h1>
@@ -154,6 +156,7 @@
    </div>
     
   </main>
+
   <footer>
     <div class="titulo-footer">
       <h1>Sunnyside</h1>
@@ -180,7 +183,7 @@
   </div>
 
 
-
+  <script src="./assets/js/script.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js" integrity="sha512-yFjZbTYRCJodnuyGlsKamNE/LlEaEAxSUDe5+u61mV8zzqJVFOH7TnULE2/PP/l5vKWpUNnF4VGVkXh3MjgLsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
