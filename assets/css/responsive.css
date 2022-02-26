@@ -77,11 +77,11 @@
         display: block;
     }
     .imagem1-main-2 {
-        background-image: url('/assets/images/desktop/mobile/image-graphic-design.jpg');
+        background-image: url(../images/desktop/mobile/image-graphic-design.jpg);
         width: 100%;
     }
     .imagem2-main-2 {
-        background-image: url('/assets/images/desktop/mobile/image-photography.jpg'); 
+        background-image: url(../images/desktop/mobile/image-photography.jpg); 
         width: 100%;   
     }
     .main-2 {

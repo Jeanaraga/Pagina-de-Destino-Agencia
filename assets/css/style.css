@@ -26,7 +26,7 @@ body {
     width: 100%;
     height: 700px;
     background-color: #3dbeff;
-    background-image: url('/assets/images/desktop/image-header.jpg');
+    background-image: url(../images/desktop/image-header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -180,7 +180,7 @@ body {
 }
 
 .imagem1-main-2 {
-    background-image: url('/assets/images/desktop/image-graphic-design.jpg');
+    background-image: url(../images/desktop/image-graphic-design.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -190,7 +190,7 @@ body {
 }
 
 .imagem2-main-2 {
-    background-image: url('/assets/images/desktop/image-photography.jpg');
+    background-image: url(../images/desktop/image-photography.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
